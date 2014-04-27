@@ -1,7 +1,7 @@
 # Code Book
 
-| Source Files | UCI Variable | Tidy Data |
-|--------------| -------------|---------- |
+| Source Files | UCI Variable | Mean of the Raw Data by Subject and Activity |
+|--------------| -------------|----------------------------------------------|
 | X_test.txt and X_train.txt | tBodyAcc-mean()-X | Mean of tBodyAccmeanX |
 | X_test.txt and X_train.txt | tBodyAcc-mean()-Y | Mean of tBodyAccmeanY |
 | X_test.txt and X_train.txt | tBodyAcc-mean()-Z | Mean of tBodyAccmeanZ |
@@ -81,5 +81,8 @@
 | X_test.txt and X_train.txt | fBodyBodyGyroJerkMag-mean() | Mean of fBodyBodyGyroJerkMagmean |
 | X_test.txt and X_train.txt | fBodyBodyGyroJerkMag-std() | Mean of fBodyBodyGyroJerkMagstd |
 | X_test.txt and X_train.txt | fBodyBodyGyroJerkMag-meanFreq() | Mean of fBodyBodyGyroJerkMagmeanFreq |
+
+| Source Files | UCI Variable | Other Variables |
+|--------------|--------------|-----------------|
 | subject_test.txt and subject_train.txt | N/A | subject |
-| y_test.txt, y_train.txt, activity_labels.txt | y value turned into a factor | activity |
+| y_test.txt, y_train.txt, activity_labels.txt | N/A | activity |
