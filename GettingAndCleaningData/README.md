@@ -1,8 +1,7 @@
-    run_Analysis.R README
-    =====================
+README
+======
 
-This program extracts and generates a tidy data set from the UCI Human Activity Recognition data set available here:
-
+"run_Analysis.R" extracts and generates a tidy data set from the UCI Human Activity Recognition data set available here:
 
 [http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip](http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip)
 
