@@ -14,7 +14,7 @@ There are 2 factor variables in the tidy data set, one is the *subject* from whi
 
 In the original data set there were 2 subsets of data, one used to *train* the machine learning system, and another one that consists of the predictions or *test*.
 
-For the tidy data set, we were rquired to take the mean of of variables related to *mean* and standard deviations *std*, grouped by *subject* and *activity*.
+For the tidy data set, we were rquired to take the mean of all the numeric variables related to *mean* and *std* (standard deviation), grouped by *subject* and *activity*.
 
 | Source Files | UCI Variable | Mean of the Variable Data by Subject and Activity |
 |--------------| -------------|----------------------------------------------|
