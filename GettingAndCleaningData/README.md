@@ -12,4 +12,4 @@ This program extracts and generates a tidy data set from the UCI Human Activity 
 
 * Run the script from that folder.
 
-Running the script will generate the file "tidy.txt", to learn about the contents of this file, pelase see the the (codebook)[https://github.com/naterajj/datasciencecoursera/blob/2336a3f0176374b393440b8be6f1f8ff495768ab/GettingAndCleaningData/CodeBook.md]
+Running the script will generate the file "tidy.txt", to learn about the contents of this file, please see the [codebook](https://github.com/naterajj/datasciencecoursera/blob/master/GettingAndCleaningData/CodeBook.md)
