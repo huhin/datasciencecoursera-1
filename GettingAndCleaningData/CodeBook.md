@@ -1,6 +1,22 @@
 # Code Book
 
-| Source Files | UCI Variable | Mean of the Raw Data by Subject and Activity |
+
+## Factor Variables
+
+There are 2 factor variables in the tidy data set, one is the *subject* from which the different observations where taken, and the other variable is the *Activity* the subject was performing.
+
+| Source Files | UCI Variable | Other Variables |
+|--------------|--------------|-----------------|
+| subject_test.txt and subject_train.txt | N/A | subject |
+| y_test.txt, y_train.txt, activity_labels.txt | N/A | activity |
+
+## Numeric Variables
+
+In the original data set there were 2 subsets of data, one used to *train* the machine learning system, and another one that consists of the predictions or *test*.
+
+For the tidy data set, we were rquired to take the mean of of variables related to *mean* and standard deviations *std*, grouped by *subject* and *activity*.
+
+| Source Files | UCI Variable | Mean of the Variable Data by Subject and Activity |
 |--------------| -------------|----------------------------------------------|
 | X_test.txt and X_train.txt | tBodyAcc-mean()-X | Mean of tBodyAccmeanX |
 | X_test.txt and X_train.txt | tBodyAcc-mean()-Y | Mean of tBodyAccmeanY |
@@ -81,8 +97,3 @@
 | X_test.txt and X_train.txt | fBodyBodyGyroJerkMag-mean() | Mean of fBodyBodyGyroJerkMagmean |
 | X_test.txt and X_train.txt | fBodyBodyGyroJerkMag-std() | Mean of fBodyBodyGyroJerkMagstd |
 | X_test.txt and X_train.txt | fBodyBodyGyroJerkMag-meanFreq() | Mean of fBodyBodyGyroJerkMagmeanFreq |
-
-| Source Files | UCI Variable | Other Variables |
-|--------------|--------------|-----------------|
-| subject_test.txt and subject_train.txt | N/A | subject |
-| y_test.txt, y_train.txt, activity_labels.txt | N/A | activity |
